@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: umons.fpms.ig19.CoursTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.004 s <<< FAILURE! -- in umons.fpms.ig19.CoursTest
+umons.fpms.ig19.CoursTest.testUpdate -- Time elapsed: 0.189 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "umons.fpms.ig19.Cours.toString()" because the return value of "umons.fpms.ig19.Cours.select(int)" is null
+	at umons.fpms.ig19.CoursTest.testUpdate(CoursTest.java:170)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+umons.fpms.ig19.CoursTest.testSelect_String -- Time elapsed: 0.045 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "umons.fpms.ig19.Cours.toString()" because the return value of "umons.fpms.ig19.Cours.select(String)" is null
+	at umons.fpms.ig19.CoursTest.testSelect_String(CoursTest.java:208)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+umons.fpms.ig19.CoursTest.testSelect_int -- Time elapsed: 0.041 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "umons.fpms.ig19.Cours.toString()" because the return value of "umons.fpms.ig19.Cours.select(int)" is null
+	at umons.fpms.ig19.CoursTest.testSelect_int(CoursTest.java:198)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
